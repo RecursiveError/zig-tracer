@@ -1,0 +1,18 @@
+.{
+    .name = .zig_tracer,
+    .version = "0.0.0",
+    .fingerprint = 0x81b9ecb1ac1054a1, // Changing this has security and trust implications.
+
+    .minimum_zig_version = "0.14.0",
+    .dependencies = .{
+        .zig_extras = .{
+            .url = "git+https://github.com/RecursiveError/zig-extras#6fcaa34ff8820e185ca1f77e3c775dae4084dd4f",
+            .hash = "zig_extras-0.0.0-7SJMXZ8tAQCuS8KfBKpeGW8u7Do0xrvOROsSzyRL2WDc",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
